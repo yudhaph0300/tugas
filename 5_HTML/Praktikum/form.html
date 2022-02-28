@@ -11,20 +11,28 @@
     <h2>Sign Up Form</h2>
 
     <form action="welcome.html">
+        
+        <!-- Name -->
         <label for="first-name">First name:</label><br>
         <input id="first-name" name="first-name" type="text"><br><br>
         <label for="Last-name">Last name:</label><br>
         <input id="Last-name" name="Last-name" type="text"><br><br>
 
+        <!-- Gender -->
         <label for="gender">Gender:</label><br>
-        <input id="gender" name="gender" type="radio" value="gender">
-        <label for="gender">Male</label><br>
-        <input id="gender" name="gender" type="radio" value="gender">
-        <label for="gender">Female</label><br>
-        <input id="gender" name="gender" type="radio" value="gender">
-        <label for="gender">Other</label><br><br>
+
+        <input id="male" name="gender" type="radio" value="male">
+        <label for="male">Male</label><br>
+
+        <input id="female" name="gender" type="radio" value="female">
+        <label for="female">Female</label><br>
+
+        <input id="other" name="gender" type="radio" value="other">
+        <label for="other">Other</label><br><br>
 
         <label for="nasionality">Nasionality:</label><br> 
+
+        <!-- Nasionality -->
         <select id="nasionality" name="nasionality">
             <option value="indonesian">indonesian</option>
             <option value="united-kingdom">United Kingdom</option>
@@ -32,18 +40,24 @@
         
         <br><br>
 
+        <!-- Language -->
         <label for="language">Language Spoken:</label><br>
-        <input type="checkbox" id="indonesian" name="indonesian" value="indonesian">
+        <input type="checkbox" id="indonesian" name="language" value="indonesian">
         <label for="indonesian">Bahasa Indonesia</label><br>
-        <input type="checkbox" id="english" name="english" value="english">
+
+        <input type="checkbox" id="english" name="language" value="english">
         <label for="english">English</label><br>
-        <input type="checkbox" id="other" name="other" value="other">
+
+        <input type="checkbox" id="other" name="language" value="other">
         <label for="other">Other</label><br><br>
 
+        <!-- Bio -->
         <label for="bio">Bio:</label><br>
         <textarea name="bio" id="bio" cols="30" rows="6"></textarea><br>
 
+        <!-- Button Submit -->
         <button type="submit">Submit</button>
+
     </form>
 </body>
 </html>
