@@ -31,6 +31,4 @@ Form HTML
 Form berfungsi untuk pembuatan sebuah formulir pada HTML
 Untuk membuat sebuah form pada HTML diperlukan beberapa tag diantaranya adalah :
 - <input type="text"> digunakan untuk masukan berupa teks, angka, dan juga karakter
-- <input type="password"> digunakan untuk masukan berupa password dan juga password yang ditulis akan menjadi simbol sehingga user tidak dapat meluhat password yang dimasukan
-
-    
+- <input type="password"> digunakan untuk masukan berupa password dan juga password yang ditulis akan menjadi simbol sehingga user tidak dapat meluhat password yang dimasukan 
