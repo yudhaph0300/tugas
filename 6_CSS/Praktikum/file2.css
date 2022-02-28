@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(sample-pattern.png);
+}
+
+.navbar {
+    height: 72px;
+    background-color: #fff;
+}
+
+.navbar-brand {
+    display: flex;
+    float: left;
+}
+
+.navbar-nav {
+    display: flex;
+    float: right;
+    margin-left: 10px;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.header h1 {
+    text-align: center;
+}
