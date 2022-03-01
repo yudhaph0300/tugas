@@ -13,6 +13,7 @@ Properties Font yang sering digunakan dalam pembuatan css:
 - Font-size digunakan untuk mengatur ukuran font
 - Font-weight digunakan untuk mengatur ketebalan font
 - Font-style digunakan untuk menentukan style font
+
 CSS Margin dan Padding. Margin digunakan untuk mengatur jarak tepi pada sebuah elemen bagian luar. Sedangkan Padding berfungsi untuk mengatur ruang antara konten dan border.
 Beberapa elemen untuk memberikan efek pada suatu link. :hover digunakan ketika mouse berada diatas elemen. :active merupakan style ketika sebuah link ditekan. :visited merupakan style saat suatu link telah diklik atau dikunjungi.
 CSS display digunakan untuk menentukan bagimana tampilan suatu elemen. Beberapa properti pada CSS display yaitu Block, Inline-block, dan None. Elemen block selalu dimulai pada baris baru. Elemen inline-block membutuhkan lebar sesuai yang diperlukan. None berfungsi menyembunyikan elemen untuk tidak ditampilkan didalam halaman web.
