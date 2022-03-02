@@ -1,0 +1,64 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 18px;
+    font-weight: 500;
+    color: #111 !important;
+    opacity: 80%;
+}
+
+.navbar-brand span {
+    color: #70C55D;
+}
+
+.navbar-nav .nav-item,
+.navbar-nav .dropdown-menu {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+/* Content 1 */
+
+.content-1 .title-content-1 {
+    color: #111;
+    opacity: 60%;
+    padding: 40px 0;
+}
+
+.content-1 .title-content-1 h1{
+    font-size: 38px;
+    font-weight: 300;
+}
+
+.content-1 .title-content-1 p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.content-1 .card-content-1 {
+    margin: 40px 0;
+}
+
+.content-1 .card-content-1 .card-title{
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 90%;
+}
+
+.content-1 .card-content-1 .card-text{
+    font-size: 10px;
+    font-weight: 600;
+    opacity: 60%;
+    margin-top: 12px;
+}
+
+.content-1 .card-content-1 .btn {
+    font-size: 10px;
+    font-weight: 600;
+    opacity: 8  0%;
+}
