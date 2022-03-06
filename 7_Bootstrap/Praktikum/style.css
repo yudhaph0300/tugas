@@ -1,22 +1,24 @@
-*{
+* {
     font-family: 'Poppins', sans-serif;
+    font-size: 10px;
 }
 
 /* Navbar */
 .navbar-brand {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
     color: #111 !important;
     opacity: 80%;
 }
 
 .navbar-brand span {
+    font-size: 1.8rem;
     color: #70C55D;
 }
 
 .navbar-nav .nav-item,
 .navbar-nav .dropdown-menu {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -35,12 +37,12 @@
 }
 
 .content-1 .title-content-1 h1{
-    font-size: 38px;
+    font-size: 3.8rem;
     font-weight: 300;
 }
 
 .content-1 .title-content-1 p {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -49,20 +51,20 @@
 }
 
 .content-1 .card-content-1 .card-title{
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 600;
     opacity: 90%;
 }
 
 .content-1 .card-content-1 .card-text{
-    font-size: 10px;
+    font-size: 1rem;
     font-weight: 600;
     opacity: 60%;
     margin-top: 12px;
 }
 
 .content-1 .card-content-1 .btn {
-    font-size: 10px;
+    font-size: 1rem;
     font-weight: 600;
     opacity: 8  0%;
 }
@@ -78,24 +80,25 @@
 }
 
 .content-2 .text-content-2 h1 {
-    font-size: 38px;
-    font-weight: 300;
     margin-bottom: 5%;
 }
 
 .content-2 .text-content-2 h1 .bold {
+    font-size: 3.8rem;
     font-weight: 500;
     color: #111;
     opacity: 80%;
 }
 
 .content-2 .text-content-2 h1 .unbold {
+    font-size: 3.8rem;
+    font-weight: 300;
     color: #111;
     opacity: 60%;
 }
 
-.content-2 .text-content-2 p {
-    font-size: 12px;
+.content-2 .text-content-2 .description {
+    font-size: 1.2rem;
     font-weight: 400;
     opacity: 60%;
 }
@@ -104,23 +107,28 @@
     margin-top: 5%;
 }
 
+.content-2 .text-content-2 .list .list-item {
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 60%;
+}
 
 
 /* Footer */
 .footer {
     margin-top: 180px;
-    font-size: 9px;
+    font-size: 0.9rem;
 }
 
 .footer .card .card-title {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 18px;
 }
 
 .footer .card .brand-name {
     font-family: serif;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .footer .card .card-body a {
@@ -133,7 +141,7 @@
 .footer .copyright p {
     color: #111;
     margin-bottom: 0;
-    font-size: 11px;
+    font-size: 1.1rem;
     text-align: center;
     font-weight: 500;
     opacity: 80%;
@@ -149,4 +157,61 @@
 
 .footer .copyright {
     margin: 20px 0;
+}
+
+
+/* Responsive */
+/* Tablet */
+@media (max-width: 768px) {
+    .content-2 {
+        margin-top: 120px;
+    }
+    .content-2 .text-content-2 {
+        color: #111;
+        margin: 0;
+    }
+    
+    .content-2 .text-content-2 h1 .bold,
+    .content-2 .text-content-2 h1 .unbold {
+        font-size: 2.8rem;
+        margin-bottom: 2%;
+    }
+    .content-2 .text-content-2 .description {
+        font-size: 1rem;
+        font-weight: 400;
+        opacity: 60%;
+    }
+    
+    .content-2 .text-content-2 .list {
+        margin-top: 2%;
+    }
+    .content-2 .text-content-2 .list .list-item {
+        font-size: 1rem;
+        font-weight: 400;
+        opacity: 60%;
+        margin-top: -5px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .content-1 .title-content-1 h1{
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    
+    .content-1 .title-content-1 p {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    .content-1 .card-content-1 {
+        margin: 20px 0;
+    }
+
+    .content-2 .img-fluid {
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 24px;
+    }
 }
