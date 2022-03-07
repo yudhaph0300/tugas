@@ -23,4 +23,10 @@ Berikut merupakan beberapa class yang sering digunakan pada Bootstrap :
 Membuat tampilan website yang berisi navbar, isi konten, dan footer.
 
 Hasil output :
+![1](https:/![2](https://user-images.githubusercontent.com/93898512/157011186-a54e5f3d-78e2-42f8-a3be-76f1b932fb81.JPG)
+![2](https://user-images.githubusercontent.com/93898512/157011318-acadf666-98fe-4aa1-af25-474a2588e068.JPG)
+![3](https://user-images.githubusercontent.com/93898512/157011211-f921bf63-e959-4227-b4b9-b25e26325b06.JPG)
+
+
+
 
