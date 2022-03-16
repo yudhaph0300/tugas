@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum</title>
+</head>
+<body>
+
+    <div id="app">
+        <ol>
+            <li v-for="todo in todos">
+                {{ todo }}
+            </li>
+        </ol>
+
+        <input type="text" v-model="todo"> 
+        <button v-on:click="tambahkan">Tambahkan</button>
+
+        <p v-if="todos.length >= 4">Hebat!</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+
+    <script>
+        new Vue ({
+            el : '#app',
+            data : {
+                todo : "",
+                todos : []
+            },
+            methods : {
+                tambahkan() {
+                    this.todos.push(this.todo)
+                    this.todo = ""
+                }
+            }
+        })
+    </script>
+    
+</body>
+</html>
