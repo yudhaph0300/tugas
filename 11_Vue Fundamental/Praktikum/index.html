@@ -10,13 +10,15 @@
 
     <div id="app">
         <ol>
-            <li v-for="todo in todos">
+            <li v-for="(todo, index) in todos">
                 {{ todo }}
+                <button v-on:click="deleteList(index)">Hapus</button>
             </li>
         </ol>
+        <p v-if="todos.length == 0">Daftar kegiatan masih kosong</p>
 
-        <input type="text" v-model="todo"> 
-        <button v-on:click="tambahkan">Tambahkan</button>
+        <input v-on:keyup.enter="addList" type="text" v-model="todo"> 
+        <button v-on:click="addList">Tambahkan</button>
 
         <p v-if="todos.length >= 4">Hebat!</p>
     </div>
@@ -31,9 +33,12 @@
                 todos : []
             },
             methods : {
-                tambahkan() {
+                addList() {
                     this.todos.push(this.todo)
                     this.todo = ""
+                },
+                deleteList(index) {
+                    this.todos.splice(index, 1)
                 }
             }
         })
