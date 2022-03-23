@@ -10,8 +10,8 @@
             {{ index + 1 }} {{ todo }}
           </td>
           <td>
-            <button v-on:click="deleteTodo(index)">Hapus</button>
-            <button v-on:click="editTodo(index, todo)">Edit</button>
+            <button class="delete" v-on:click="deleteTodo(index)">Hapus</button>
+            <button class="edit" v-on:click="editTodo(index, todo)">Edit</button>
           </td>
         </tr>
       </table>
@@ -124,9 +124,17 @@ table button {
   margin-left: 3.5%;
   padding: 12px 32px;
   color: #fff;
-  background-color: #41c05c;
-  border: solid #41c05c;
   border-radius: 8px;
+}
+
+table .delete {
+  background-color: #cc4238;
+  border: solid #cc4238;
+}
+
+table .edit {
+  background-color: #27a566;
+  border: solid #27a566;
 }
 
 
