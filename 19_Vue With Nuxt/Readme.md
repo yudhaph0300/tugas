@@ -25,4 +25,4 @@ SEO Meta tag adalah tag tak terlihat di dalam yang memberikan data tentang halam
 Cara Kerja SEO Meta SEO Meta Tag dapat diterapkan dari Nuxt config untuk pengaturan global, yaitu konten head akan sama di setiap halaman aplikasi Ex: nuxt.config.js export default { head: { title: 'websiteku', meta: [ { charset: 'utf-8' }, { name: 'viewport', content: 'width=device-width, initial-scale=1' } ] } }
 
 === PWA ===
-PWA PWA (Progressive Web Apps) dibuat dan disempurnakan dengan API modern untuk menghadirkan peningkatan kemampuan, keandalan, dan kemudahan pemasangan sekaligus menjangkau siapa saja, di mana saja, di perangkat apa pun dengan basis kode tunggal
+PWA (Progressive Web Apps) dibuat dan disempurnakan dengan API modern untuk menghadirkan peningkatan kemampuan, keandalan, dan kemudahan pemasangan sekaligus menjangkau siapa saja, di mana saja, di perangkat apa pun dengan basis kode tunggal
