@@ -1,0 +1,1 @@
+https://kampusmerdekayudha.hasura.app/v1/graphql
